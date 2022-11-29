@@ -41,9 +41,9 @@ const BigBlue = () => {
 
   return (
     <>
-      <Title />
+      <Title/>
       <FilmList allFilms={films} />
-      <Button />
+      <Button/>
     </>
   );
 };

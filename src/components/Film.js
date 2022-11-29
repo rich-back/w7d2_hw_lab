@@ -3,9 +3,9 @@ const Film = ({ filmObj }) => {
     <>
       <li>
         <img src={filmObj.image} alt="pictureoffilm" width="60px" />
-        <a href="{filmObj.url}">{filmObj.name}</a>
+        <a href={filmObj.url}>{filmObj.name}</a>
       </li>
-      <hr />
+      <hr/>
     </>
   );
 };
